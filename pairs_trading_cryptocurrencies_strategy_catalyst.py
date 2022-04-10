@@ -6,7 +6,7 @@ import scipy.stats as st
 from catalyst import run_algorithm
 from catalyst.api import (record, symbol, order_target_percent, date_rules, time_rules, get_datetime)
 
-#zaim
+#zaim from miazocool
 def initialize(context):
     context.A = symbol('xmr_usd')
     context.B = symbol('neo_usd')
